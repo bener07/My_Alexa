@@ -16,3 +16,6 @@ or
 ```
 python3 main.py
 ```
+
+Pyaudio needs to be installed manually.
+if you have a better resulotion please try to say it Thank you.
