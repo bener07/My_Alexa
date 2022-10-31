@@ -6,6 +6,8 @@ import time
 import speech_recognition as sr
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+client_id = os.getenv("CLIENTID")
+client_secret = os.getenv("CLIENTSECRET")
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
@@ -51,8 +53,8 @@ def speak(t):
 
 def spotify():
     def search_spotify(x):
-        sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="fa1cdae006e7420db745b9af34c62f08",
-                                                                   client_secret="aaad931eeae642b49350285b0f0b5029"))
+        sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id,
+                                                                   client_secret=client_secret))
         result_search = sp.search(q=x, limit=3)
         return result_search
 
