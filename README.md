@@ -1,7 +1,7 @@
 # My_Alexa
 My girl Alexa project steel in progress
 
-This is Alexa is not the alexa from google but is a diferent one write in python with support for some stuffs ahahaha i'm dumb.
+This is Alexa is not the alexa from google but is a diferent one write in python with support for some stuf.
 
 # Running Alexa
 run:
@@ -18,4 +18,4 @@ python3 main.py
 ```
 
 Pyaudio needs to be installed manually.
-if you have a better resulotion please try to say it Thank you.
+if you have a better resulotion please to say it Thank you.
